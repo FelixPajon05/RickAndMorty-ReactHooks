@@ -1,30 +1,16 @@
-/* eslint-disable react/no-unknown-property */
-
+import "./App.css";
 import CharacterList from "./components/CharacterList";
-import { 
-  Box,
-  Grid,
-  GridItem
-} from "@chakra-ui/react"
 
 function App() {
 
-  return <div>
+  return <div className="bg-main text-white">
 
-    <Box bgImage="url(./assets/img/RickAndMortyBackground.gif)">
+      <h1 className="text-center py-4">The Rick and Morty API</h1>
 
-      <h1>Rick and Morty App</h1>
-      <Grid templateColumns='repeat(5, 1fr)' gap={6}>
-        <GridItem>
-          <CharacterList />
-        </GridItem>
-      </Grid>
-    
-    </Box>
-
+      <CharacterList />
 
   </div>;
 
 }
 
-export default App
+export default App;

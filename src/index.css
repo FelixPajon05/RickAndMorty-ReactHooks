@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Golos+Text:wght@700&family=Kanit:wght@300&family=Lilita+One&family=Orbitron:wght@600&display=swap');
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -32,8 +35,9 @@ body {
 }
 
 h1 {
+  font-family: Fredoka One;
   font-size: 3.2em;
-  line-height: 1.1;
+  text-shadow: 0.1em 0.1em 0.1em greenyellow;
 }
 
 button {
